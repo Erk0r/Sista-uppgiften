@@ -1,0 +1,138 @@
+body {
+	font-family: Trebuchet MS;
+	font-size: 16px;
+	color: black;
+	width: 1000px;
+	margin: auto;
+	padding: 0px;
+}
+#wrapper {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0px auto;
+      /*uppe,nere=0; höger,vänster=auto*/
+}
+
+header {
+	height: 60px;
+	background-color: LimeGreen;
+}
+#rubrik{
+	padding-left: 20px;
+	padding-top: 10px;
+}
+nav {
+	height: 50px;
+	background-color: beige;
+}
+ul {
+	margin: 0px 1%;
+	padding: 0px;
+	list-style-type: none;
+}
+nav ul li a {
+	margin: 14px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: red;
+}
+#sidebar1 {
+	width: 18%;
+	min-height: 200px;
+	float: right;
+	padding: 1%;
+	background-color: PaleGreen;
+}
+#sidebar2 {
+	width: 26%;
+	min-height: 200px;
+	float: left;
+	padding: 1%;
+	background-color: PaleGreen;
+	}
+
+	#sidebar3 {
+		width: 26%;
+		min-height: 200px;
+		float: right;
+		padding: 1%;
+		background-color: PaleGreen;
+		}
+
+		#sidebar4 {
+			width: 26%;
+			min-height: 200px;
+			float: right;
+			padding: 1%;
+			background-color: PaleGreen;
+			}
+
+article {
+	width: 48%;
+	min-height: 200px;
+	float: left;
+	padding: 2%;
+	background-color: Azure;
+}
+
+article2 {
+	width: 65%;
+	min-height: 200px;
+	float: left;
+	padding: 2%;
+	background-color: Azure;
+}
+
+article3 {
+	width: 96%;
+	min-height: 200px;
+	float: left;
+	padding: 2%;
+	background-color: Azure;
+}
+
+nav {
+	height: 50px;
+	background-color: solid Azure;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding-left: 40px;
+}
+nav ul li a {
+	margin-left: 0px;
+	margin-top: 0px;
+	Margin-right: 0px;
+  float: left;
+	text-decoration: none;
+	color: black;
+	border-left: 1px solid black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+/*Alternativ för padding: padding: 15px 50 px; */
+}
+nav ul li a:hover{
+	background: black;
+	color: limegreen;
+}
+
+footer {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+  	background-color: beige;
+}
+#bild{
+	float: left;
+	margin: 0px;
+
+}
+figcaption{
+	font-size: 13px;
+	font-style: italic;
+}
